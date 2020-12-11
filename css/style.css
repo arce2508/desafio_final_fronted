@@ -735,6 +735,15 @@ li {
 }
 /*# sourceMappingURL=style.css.map */
 /* #readin */
-#reading .d-flex {
+#reading2 .d-flex {
   display: inline-flex;
+}
+#reading2 .searchlength {
+  height: 2200px;
+}
+
+#reading2 .btnmeasure {
+  width: 50px;
+
+  border-radius: 20px;
 }
