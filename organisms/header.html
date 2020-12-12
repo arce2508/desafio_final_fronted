@@ -5,6 +5,7 @@
       <!-- <input type="text" class="col-8 fonts-20" placeholder="Search..."> -->
       <div class="input-group">
         <input
+          id="search"
           type="text"
           class="form-control"
           placeholder="Search..."
@@ -14,9 +15,14 @@
       </div>
     </div>
     <div class="col-7 d-flex justify-content-end align-items-center">
-      <button type="button" class="btn btn-primary d-none d-md-block">
+      <div
+        class="btn btn-success d-none d-md-block"
+        id="Try-button"
+        data-toggle="modal"
+        data-target="#writeAPostModal"
+      >
         Write a post
-      </button>
+      </div>
       <img class="img-smill" src="../images/icon_nav/mod.svg" alt="" />
       <img class="img-smill" src="../images/icon_nav/connect.svg" alt="" />
       <img class="img-bell" src="../images/icon_nav/bell.svg" alt="" />

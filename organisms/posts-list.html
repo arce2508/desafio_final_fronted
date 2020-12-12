@@ -1790,3 +1790,74 @@
     </div>
   </div>
 </div>
+<!-- Modal para la captura del post  -->
+<div
+  class="modal fade"
+  id="writeAPostModal"
+  tabindex="-1"
+  role="dialog"
+  aria-labelledby="exampleModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Escribe tu post</h5>
+        <button
+          type="button"
+          class="close"
+          data-dismiss="modal"
+          aria-label="Close"
+        >
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Autor</label>
+            <input
+              type="text"
+              class="form-control"
+              id="Author"
+              aria-describedby="emailHelp"
+              placeholder="Escribe tu nombre y apellido"
+            />
+            <label for="exampleInputEmail1">Titulo</label>
+            <input
+              type="text"
+              class="form-control"
+              id="Title"
+              aria-describedby="emailHelp"
+              placeholder="Cual es el titulo del post"
+            />
+            <label for="exampleInputEmail1">Contenido</label>
+            <input
+              type="text"
+              class="form-control"
+              id="Text"
+              aria-describedby="emailHelp"
+              placeholder="Escribe el contenido del post"
+            />
+            <label for="exampleInputEmail1">Tags</label>
+            <input
+              type="text"
+              class="form-control"
+              id="tags"
+              aria-describedby="emailHelp"
+              placeholder="#Escribe 3 tags"
+            />
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">
+          Close
+        </button>
+        <button type="button" class="btn btn-primary" id="saveInfoButton">
+          Save changes
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,11 +1,11 @@
 $(document).ready(() => {
   // Common.
-  $("#header").load("../organisms/header.html");
+  $("#header").load("../organisms/header.html", addSearchEvent);
   $("#footer").load("../organisms/footer.html");
 
   // Home.
   $("#aside-navigation").load("../organisms/aside-navigation.html");
-  $("#posts-list").load("../organisms/posts-list.html");
+  $("#posts-list").load("../organisms/posts-list.html", addPostEvent);
   $("#aside-announcements").load("../organisms/aside-announcements.html");
 
   // Reading list.
