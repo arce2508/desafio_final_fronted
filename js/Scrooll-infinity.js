@@ -13,7 +13,11 @@ function createPost() {
   const post = document.createElement("div");
 
   post.innerHTML =`<div class="card">
+
     <div class="card-body">
+    <span class=""
+    ><img class="profile_min" src="../images/profile/p6.jpg" alt=""
+  /></span>
       <div class="info_personal d-inline-block flex-column">
         <span class="card-text d-block name">
         <a class="">{Author}</a></span>
@@ -53,5 +57,11 @@ function createPost() {
   </div>`
   ;
 
+  user.document.querySelector(".user-p");
+  date.document.querySelector(".date-post")
+  title.document.querySelector(".card-title")
+
   container.appendChild(post);
 }
+
+var date = new Date(0, 2 ,10)
