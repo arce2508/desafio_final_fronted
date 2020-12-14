@@ -9,10 +9,10 @@ window.addEventListener("scroll", () => {
 function createPost() {
   console.log("post_creado");
   // Selector
-  const container = document.querySelector(".tab-content");
+  const container = document.querySelector(".card");
   const post = document.createElement("div");
 
-  post.innerHTML = `<div class="card">
+  post.innerHTML =`<div class="card">
     <div class="card-body">
       <div class="info_personal d-inline-block flex-column">
         <span class="card-text d-block name">
@@ -50,6 +50,8 @@ function createPost() {
         </div>
       </div>
     </div>
-  </div>`;
+  </div>`
+  ;
+
   container.appendChild(post);
 }
